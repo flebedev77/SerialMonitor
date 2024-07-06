@@ -1,9 +1,8 @@
 const output = document.getElementById("output");
 
 document.getElementById("start-button").addEventListener("click", () => {
-    const usbVendorId = 0xabcd;
     navigator.serial
-        .requestPort({ filters: [{ usbVendorId }] })
+        .requestPort()
         .then(port => {
             readPort(port);
         }).catch(e => {
