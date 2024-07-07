@@ -2,6 +2,7 @@ const output = document.getElementById("output");
 
 document.getElementById("start-button").addEventListener("click", () => {
     listenForSerialDevice();
+    this.style.visibility = "hidden";
 })
         
 async function listenForSerialDevice() {

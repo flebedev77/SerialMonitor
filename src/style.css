@@ -1,0 +1,26 @@
+#start-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;    
+    text-transform: uppercase;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+#output {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    margin: 0;
+    resize: none;
+    background: rgb(36, 36, 36);
+    color: green;
+    border-radius: 0;
+    outline-style:none;
+}
