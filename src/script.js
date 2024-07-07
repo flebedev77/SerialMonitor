@@ -46,4 +46,5 @@ async function listenForSerialDevice() {
 
 function parseData(value) {
     output.value += value;
+    output.scrollTo(0, output.scrollHeight);
 }
