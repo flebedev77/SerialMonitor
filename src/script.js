@@ -44,5 +44,5 @@ async function listenForSerialDevice() {
 }
 
 function parseData(value) {
-    output.innerText += "\n " + value;
+    output.value += value;
 }
