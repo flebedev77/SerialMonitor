@@ -1,8 +1,8 @@
 const output = document.getElementById("output");
 
 document.getElementById("start-button").addEventListener("click", () => {
+    document.getElementById("start-button").remove();
     listenForSerialDevice();
-    this.style.visibility = "hidden";
 })
         
 async function listenForSerialDevice() {
